@@ -1,0 +1,22 @@
+#Input dos dados informacionais de relação ocorrencia localidade
+cores_paises = read.csv(file.choose(), sep=",", header = F)    
+head(cores_paises)
+
+tab_cores_pais <- cores_paises[,c(1,2)]
+head(tab_cores_pais)
+dim(tab_cores_pais)
+#cores <- c("blue", "red", "green","black")
+#names(cores) <- c("D","C","B","A")
+#cores
+
+#toda_tab = read.csv(file.choose(), sep="\t", header = T)    
+#dim(toda_tab)
+
+#head(toda_tab)
+#############################################################################################
+#levels(toda_tab$X.Geographic.Location.)
+#carrega os dados do needle usando proteinas
+#arquivo .CVS gerados com needle
+#transforma todos os inputs into file
+dados = read.csv(file.choose(), header=FALSE, sep=";")    
+head(dados)
